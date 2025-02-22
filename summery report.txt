@@ -1,0 +1,49 @@
+📊 Summary Report: Data Manipulation with Pandas
+
+✅ Task 1: Handling Missing Values
+
+Missing Data Handling:
+.Replaced "?" with NaN to standardize missing data representation.
+.Dropped columns with more than 20% missing values to maintain data integrity.
+.Numerical Columns: Filled missing values using the median to avoid skewing data due to outliers.
+.Categorical Columns: Filled missing values with the most frequent value (mode) for consistency.
+
+✅ Task 2: Advanced Filtering and Indexing
+
+Property Extraction:
+.Filtered properties in "Richmond" with prices over $1,000,000.
+.Selected "Price", "Suburb", and "BuildingArea" for properties with land size over 500 sqm.
+.Retrieved the top 5 most expensive properties by sorting prices in descending order.
+
+✅ Task 3: Data Transformation & Feature Engineering
+
+New Features Created:
+.Price per Room: Introduced a column showing the price-to-room ratio for deeper cost analysis.
+.Date Conversion: Converted the "Date" column to proper datetime format.
+.Year of Sale: Extracted the year from the sale date into a new column "Year_Sold" for time-based analysis.
+
+✅ Task 4: Aggregation and Grouping
+
+Suburb-Level Insights:
+.Calculated the average property price for each suburb.
+.Counted the total number of properties sold per suburb.
+.Identified the suburb with the highest average price.
+.Data Categorization:
+.Created a "Category" column classifying houses as "Expensive" or "Affordable" based on the median price.
+.Correlation Analysis:
+.Measured the correlation between price and number of rooms using .corr() to evaluate their relationship.
+
+✅ Task 5: Exporting & Reporting Data
+
+Data Export:
+.Saved the cleaned and enhanced dataset to cleaned_melb_data_homework.csv for future use.
+.Visualization:
+.Generated a bar chart showing average house prices in the top 10 suburbs for quick market comparison.
+
+💡 Key Takeaways:
+
+.Richmond has several high-value properties exceeding $1,000,000.
+.Price per room offers a more granular view of property value.
+.The suburb with the highest average price provides potential investment insights.
+.The correlation between price and number of rooms helps understand pricing dynamics in Melbourne's housing market.
+.This structured approach ensures accurate data cleaning, meaningful analysis, and actionable insights for real estate decision-making. 🏡
